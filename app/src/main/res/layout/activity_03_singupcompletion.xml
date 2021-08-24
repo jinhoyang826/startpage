@@ -21,7 +21,7 @@
             android:gravity="center"
             android:text="Self Body Story"
             android:textStyle="bold"
-            android:textSize="34sp"/>
+            android:textSize="35sp"/>
     </LinearLayout>
 
     <TextView
