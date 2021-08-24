@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Self Body Story"
+            android:textStyle="bold"
+            android:textSize="35sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="238dp"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textid"
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="아이디"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/Editid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="1"
+                    android:background="@drawable/button_button01"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textpwd"
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="비밀번호"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/Editpwd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="textPassword"
+                    android:ems="1"
+                    android:background="@drawable/button_button01"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:text="로그인" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/singup"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="회원가입"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/idserch"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="아이디 찾기" />
+
+        <Button
+            android:id="@+id/pwdserch"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="비밀번호 찾기" />
+    </LinearLayout>
+
+</LinearLayout>

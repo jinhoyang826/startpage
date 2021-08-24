@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".selfcheckedit">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:orientation="vertical" />
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/day"
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="날짜"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/day3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="1"
+                    android:background="@drawable/button_button01"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/diet"
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="식단"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/diet2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="1"
+                    android:background="@drawable/button_button01"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/kcal"
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="칼로리"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/kcal3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="textPassword"
+                    android:ems="1"
+                    android:background="@drawable/button_button01"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/acckcal"
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="누적칼로리"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/acckcal2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="1"
+                    android:background="@drawable/button_button01"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/plus1"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:background="@android:color/white"
+            android:layout_marginTop="95dp"
+            android:src="@drawable/plus" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/cancel2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="취소" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="삭제" />
+
+        <Button
+            android:id="@+id/check2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="확인" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+rootProject.name='startpage'
+include ':app'

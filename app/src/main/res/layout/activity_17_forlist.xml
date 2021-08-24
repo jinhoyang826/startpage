@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Forlist">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="반복횟수"
+            android:background="@drawable/button_button03"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/forlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="목록"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/button_button03">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <RadioButton
+                android:id="@+id/fivemin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5분" />
+
+            <RadioButton
+                android:id="@+id/tenmin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10분" />
+
+            <RadioButton
+                android:id="@+id/fiftmin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15분" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="반복"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/button_button03">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <RadioButton
+                android:id="@+id/threefor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3회" />
+
+            <RadioButton
+                android:id="@+id/fivefor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5회" />
+
+            <RadioButton
+                android:id="@+id/Infinitefor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="계속 반복" />
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+</LinearLayout>
